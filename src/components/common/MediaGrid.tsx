@@ -48,20 +48,16 @@ function MediaGrid({
       </div>
 
       {thumbnails.length > 0 && (
-        <div
-          className="grid gap-2.5"
-          style={{
-            gridTemplateColumns: `repeat(${thumbnails.length}, minmax(0, 1fr))`,
-          }}
-        >
+        <div className="grid grid-cols-2 gap-2.5 lg:grid-cols-4">
           {thumbnails.map((src, i) => (
-            <Image
-              key={i}
-              src={src}
-              alt={mainAlt ? `${mainAlt} ${i + 1}` : `Thumbnail ${i + 1}`}
-              ratio="3/2"
-              placeholderLabel={`Thumb ${i + 1}`}
-            />
+            <div key={i} className={i >= 2 ? 'hidden lg:block' : ''}>
+              <Image
+                src={src}
+                alt={mainAlt ? `${mainAlt} ${i + 1}` : `Thumbnail ${i + 1}`}
+                ratio="3/2"
+                placeholderLabel={`Thumb ${i + 1}`}
+              />
+            </div>
           ))}
         </div>
       )}

@@ -8,12 +8,12 @@ const typographyVariants = cva('m-0', {
     variant: {
       display:
         'font-display text-5xl md:text-7xl lg:text-8xl font-extrabold uppercase leading-none tracking-tighter',
-      h2: 'font-helvetica text-center text-black text-[58px] font-bold leading-13 tracking-[-2.9px]',
-      h3: 'text-black text-center font-helvetica text-[32px] font-bold leading-[28px] tracking-[-1.92px]',
+      h2: 'font-helvetica text-center text-black text-4xl font-bold leading-tight tracking-tight md:text-[58px] md:leading-13 md:tracking-[-2.9px]',
+      h3: 'text-black text-center font-helvetica text-2xl font-bold leading-snug tracking-tight md:text-[32px] md:leading-[28px] md:tracking-[-1.92px]',
       h4: 'text-lg font-bold leading-snug',
       subtitle: 'text-base md:text-lg font-semibold leading-normal',
       bodyLarge:
-        'font-helvetica text-center text-[#242424] text-[24px] font-normal leading-7.5 tracking-[-1.2px]',
+        'font-helvetica text-center text-[#242424] text-lg font-normal leading-snug tracking-tight md:text-[24px] md:leading-7.5 md:tracking-[-1.2px]',
       body: 'text-black font-helvetica text-[20px] font-medium leading-[28px] tracking-[-1.2px]',
       small: 'text-sm leading-normal',
       caption: 'text-xs leading-normal',

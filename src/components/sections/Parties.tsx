@@ -17,7 +17,7 @@ function Parties({ content = partiesContent }: PartiesProps) {
       <div className="mx-auto flex max-w-295.5 flex-col gap-12 px-6 py-12 lg:gap-16 lg:px-8 lg:py-16">
         <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:gap-5">
           <div className="flex w-full flex-col gap-3.75 font-helvetica lg:w-95 lg:shrink-0">
-            <h2 className="m-0 text-[64px] font-bold leading-[62px] tracking-[-3.84px] text-black">
+            <h2 className="m-0 text-[44px] font-bold leading-11 tracking-[-2.6px] text-black md:text-[64px] md:leading-15.5 md:tracking-[-3.84px]">
               {content.title.line1}
               <br />
               {content.title.line2}

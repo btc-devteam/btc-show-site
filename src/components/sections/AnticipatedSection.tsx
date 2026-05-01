@@ -47,7 +47,7 @@ function AnticipatedSection({
 
         <div className="w-full lg:flex-1">
           <Image
-            src={"../../../public/images/Anticipated.png"}
+            src={content.imageSrc || '/images/Anticipated.png'}
             alt={content.imageAlt}
             ratio="3/2"
             placeholderLabel="Stage Photo"
