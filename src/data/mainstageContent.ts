@@ -12,8 +12,8 @@ export const mainstageContent: MainstageContent = {
     rest:
       ' The most respected names in professional beauty stand here. The biggest brands unveil their most anticipated launches here. The techniques that will fill your chairs, dominate social feeds and inspire stylists around the globe are revealed here first!',
   },
-  mainImage: '../../public/images/hairstage.png',
-  thumbnails: ['../../public/images/hairstage1.png', '../../public/images/hairstage2.png', '../../public/images/hairstage3.png', '../../public/images/hairstage4.png'],
+  mainImage: '/images/hairstage.png',
+  thumbnails: ['/images/hairstage1.png', '/images/hairstage2.png', '/images/hairstage3.png', '/images/hairstage4.png'],
 }
 
 export default mainstageContent

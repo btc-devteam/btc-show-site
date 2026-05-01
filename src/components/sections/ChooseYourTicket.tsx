@@ -15,7 +15,7 @@ function ChooseYourTicket({
     <section id="tickets" className="bg-canvas text-foreground-inverse">
       <div className="mx-auto flex max-w-295.5 flex-col items-center gap-10 px-6 py-12 lg:gap-12 lg:py-12.5">
         <header className="flex flex-col items-center gap-3.75 text-center">
-          <h2 className="m-0 max-w-129.5 font-helvetica text-[60px] font-bold leading-14.5 tracking-[-3.6px] text-white">
+          <h2 className="m-0 max-w-129.5 font-helvetica text-[44px] font-bold leading-11 tracking-[-2.4px] text-white md:text-[60px] md:leading-14.5 md:tracking-[-3.6px]">
             Choose Your Ticket
           </h2>
           <div className="flex flex-col items-center gap-1 font-helvetica text-[20px] leading-7 tracking-[-1.2px]">

@@ -4,7 +4,7 @@ export const oneShotPromo: PromoContent = {
   brand: 'behindthechair.com',
   titleLines: ['#ONE', 'SHOT'],
   subtitle: 'Global Hair Awards',
-  logo:'../../../public/images/oneshot-golden.png',
+  logo:'/images/oneshot-golden.png',
   body: [
     'Top 100 #ONESHOT Nominees',
     'get a FREE ticket to',

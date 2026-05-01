@@ -1,5 +1,8 @@
 import type { ShowScheduleDay } from '@/types'
 
+// Mobile-only video preview shown above the schedule list
+export const showScheduleVideoImage = ''
+
 export const showSchedule: ShowScheduleDay[] = [
   {
     id: 'sat',

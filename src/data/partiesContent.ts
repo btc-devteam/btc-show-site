@@ -7,7 +7,7 @@ export const partiesContent: PartiesContent = {
   },
   description:
     'From the show floor to the dance floor, we throw parties that are just as legendary as the education.',
-  heroImage: '../../../public/images/work-hard.png',
+  heroImage: '/images/work-hard.png',
   events: [
     {
       id: 'pool',
@@ -15,7 +15,7 @@ export const partiesContent: PartiesContent = {
       day: 'Saturday',
       description:
         'Legendary for a reason. Umbrella drinks, questionable inflatables, crazy games, and nobody saw a thing!',
-      imageSrc: '../../../public/images/the-pool-party.png',
+      imageSrc: '/images/the-pool-party.png',
       hasVideo: true,
     },
     {
@@ -24,7 +24,7 @@ export const partiesContent: PartiesContent = {
       day: 'Saturday',
       description:
         'Meet others whose dreams—just like yours—outgrew the rooms they were in. Our Party of “One” mixer takes place early Saturday evening to give you a chance to connect with big dreamers who also came alone.',
-      imageSrc: '../../../public/images/party-of-one.png',
+      imageSrc: '/images/party-of-one.png',
       hasVideo: false,
     },
     {
