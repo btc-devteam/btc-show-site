@@ -18,7 +18,7 @@ function Hero({ content = heroContent }: HeroProps) {
   return (
     <section
       aria-label="Hero"
-      className="relative flex h-155 md:193 max-h-screen items-center justify-center overflow-hidden bg-canvas text-foreground-inverse"
+      className="relative flex h-155 max-h-screen items-center justify-center overflow-hidden bg-canvas text-foreground-inverse md:h-193"
     >
       <div className="absolute inset-0 z-0">
         {videoSrc ? (
@@ -40,7 +40,7 @@ function Hero({ content = heroContent }: HeroProps) {
         <div className="absolute inset-0 bg-black/35" />
       </div>
 
-      <Container className="relative z-10 flex flex-col items-center gap-6 py-20 text-center md:gap-8 md:py-28">
+      <Container className="relative z-10 flex flex-col items-center gap-4 py-10 text-center md:gap-6 md:py-14">
         <motion.div
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
