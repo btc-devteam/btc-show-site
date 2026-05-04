@@ -14,7 +14,7 @@ function Parties({ content = partiesContent }: PartiesProps) {
       id="parties"
       className="bg-pink-accent text-black"
     >
-      <div className="mx-auto flex max-w-295.5 flex-col gap-12 px-6 py-12 lg:gap-16 lg:px-8 lg:py-16">
+      <div className="mx-auto flex max-w-295.5 flex-col gap-12 px-7.5 py-10 lg:gap-16 lg:py-12.5">
         <div className="flex flex-col items-start gap-8 lg:flex-row lg:items-center lg:gap-5">
           <div className="flex w-full flex-col gap-3.75 font-helvetica lg:w-95 lg:shrink-0">
             <h2 className="m-0 text-[44px] font-bold leading-11 tracking-[-2.6px] text-black md:text-[64px] md:leading-15.5 md:tracking-[-3.84px]">
@@ -38,7 +38,7 @@ function Parties({ content = partiesContent }: PartiesProps) {
           </div>
         </div>
 
-        <div className="mx-auto flex w-full max-w-[1020px] flex-col gap-12">
+        <div className="mx-auto flex w-full max-w-255 flex-col gap-12">
           {content.events.map((event) => (
             <PartyRow key={event.id} event={event} />
           ))}
@@ -51,7 +51,7 @@ function Parties({ content = partiesContent }: PartiesProps) {
 function PartyRow({ event }: { event: PartyEvent }) {
   return (
     <article className="flex flex-col items-center gap-5 lg:flex-row">
-      <div className="relative w-full lg:w-[600px] lg:shrink-0">
+      <div className="relative w-full lg:w-150 lg:shrink-0">
         <Image
           src={event.imageSrc}
           alt={event.title}
@@ -63,14 +63,14 @@ function PartyRow({ event }: { event: PartyEvent }) {
           <button
             type="button"
             aria-label={`Play ${event.title} video`}
-            className="absolute left-1/2 top-1/2 flex size-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-cyan-accent bg-black/50 text-cyan-accent backdrop-blur-sm transition-transform hover:scale-110"
+            className="absolute left-1/2 top-1/2 flex size-15.5 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full border-2 border-cyan-accent bg-black/50 text-cyan-accent backdrop-blur-sm transition-transform hover:scale-110"
           >
             <Play size={22} className="ml-1 fill-cyan-accent" strokeWidth={0} />
           </button>
         )}
       </div>
 
-      <div className="flex w-full flex-col gap-[5px] font-helvetica lg:w-95">
+      <div className="flex w-full flex-col gap-1.25 font-helvetica lg:w-95">
         <p className="m-0 text-[24px] leading-7.5 tracking-[-1.2px] text-black">
           <span className="font-bold">{event.title}</span>
           <span className="font-normal"> • {event.day}</span>

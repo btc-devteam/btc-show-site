@@ -18,7 +18,7 @@ function ShowSchedule({
   return (
     <Section id="schedule" theme="light" size="md">
       <Container>
-        <h2 className="m-0 mb-6 text-center font-helvetica text-4xl font-bold leading-tight tracking-[-2px] text-black md:mb-10 md:text-[58px] md:leading-14 md:tracking-[-3.48px]">
+        <h2 className="m-0 mb-6 font-helvetica text-4xl font-bold leading-tight tracking-[-2px] text-black md:mb-10 md:text-center md:text-[58px] md:leading-14 md:tracking-[-3.48px]">
           {title}
         </h2>
 
