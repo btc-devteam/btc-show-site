@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'motion/react'
 import { ChevronsDown } from 'lucide-react'
 
@@ -16,7 +18,7 @@ function Hero({ content = heroContent }: HeroProps) {
   return (
     <section
       aria-label="Hero"
-      className="relative flex min-h-screen items-center justify-center overflow-hidden bg-canvas text-foreground-inverse"
+      className="relative flex h-155 md:193 max-h-screen items-center justify-center overflow-hidden bg-canvas text-foreground-inverse"
     >
       <div className="absolute inset-0 z-0">
         {videoSrc ? (

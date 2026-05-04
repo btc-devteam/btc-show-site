@@ -16,9 +16,9 @@ const THEME_MAP: Record<NonNullable<SectionProps['theme']>, string> = {
 }
 
 const SIZE_MAP: Record<NonNullable<SectionProps['size']>, string> = {
-  sm: 'py-12 md:py-16',
-  md: 'py-16 md:py-24',
-  lg: 'py-24 md:py-32',
+  sm: 'py-12 md:py-12.5',
+  md: 'py-12.5 ',
+  lg: 'py-12.5',
 }
 
 function Section({

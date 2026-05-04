@@ -11,7 +11,7 @@ function LinkRow({ links, className }: LinkRowProps) {
     <nav
       aria-label="Footer"
       className={cn(
-        'flex flex-wrap justify-center gap-x-6 gap-y-2',
+        'flex flex-col items-start gap-y-1.5 md:flex-row md:flex-wrap md:items-center md:justify-center md:gap-x-6 md:gap-y-2',
         className,
       )}
     >
@@ -19,7 +19,7 @@ function LinkRow({ links, className }: LinkRowProps) {
         <a
           key={link.href}
           href={link.href}
-          className="text-xs font-semibold uppercase tracking-wider text-foreground no-underline transition-opacity hover:opacity-70 hover:underline"
+          className="text-[15px] font-medium uppercase tracking-wider text-foreground no-underline transition-opacity hover:opacity-70 hover:underline md:text-xs md:font-semibold"
         >
           {link.label}
         </a>

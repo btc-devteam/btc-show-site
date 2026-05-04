@@ -18,9 +18,9 @@ function Testimonials({
   return (
     <section
       aria-label="Testimonials"
-      className="relative overflow-hidden bg-pink-accent py-12 md:py-16"
+      className="relative overflow-hidden bg-pink-accent py-8 md:py-12"
     >
-      <h2 className="m-0 mb-10 text-center font-helvetica text-[48px] font-bold leading-14 tracking-[-2.88px] text-black">
+      <h2 className="m-0 mb-6 px-7.5 font-helvetica text-4xl font-bold leading-tight tracking-[-1.5px] text-black md:mb-10 md:px-0 md:text-center md:text-[48px] md:leading-14 md:tracking-[-2.88px]">
         {title}
       </h2>
 

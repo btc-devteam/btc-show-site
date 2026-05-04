@@ -1,24 +1,24 @@
 import {
-  Hero,
-  CountdownTimer,
-  Mission,
-  TicketsOnSaleCta,
   AnticipatedSection,
+  Brands,
+  ChooseYourTicket,
+  Classes,
+  ConnectionCenter,
+  CountdownTimer,
+  GoodyBag,
+  Hero,
+  Hotel,
+  Mainstage,
+  Mission,
+  OneShotAwards,
+  Parties,
   ShowSchedule,
   Testimonials,
-  Mainstage,
-  Classes,
+  TicketsOnSaleCta,
   Workshops,
-  ConnectionCenter,
-  Brands,
-  Parties,
-  OneShotAwards,
-  GoodyBag,
-  Hotel,
-  ChooseYourTicket,
 } from '@/components/sections'
 
-function Home() {
+export default function HomePage() {
   return (
     <main className="flex flex-1 flex-col">
       <Hero />
@@ -41,5 +41,3 @@ function Home() {
     </main>
   )
 }
-
-export default Home
