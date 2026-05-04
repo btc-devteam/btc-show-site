@@ -1,7 +1,6 @@
 import { Button } from '@/components/ui/button'
 import { chooseYourTicketContent } from '@/data/ticketPackages'
 import { oneShotPromo } from '@/data/promoContent'
-import { Image } from '@/components/common/Image'
 import type { ChooseYourTicketContent, TicketPackage } from '@/types'
 
 interface ChooseYourTicketProps {
@@ -114,14 +113,12 @@ function TicketCard({ pkg }: { pkg: TicketPackage }) {
 
 function OneShotPromoCallout() {
   return (
-    <div className="flex w-full max-w-150 items-center gap-3.75 border border-[#f5e9ac] px-3.75 py-5">
+    <div className="flex w-full max-w-150 flex-col items-center gap-5 border border-[#f5e9ac] px-3.75 py-5 md:flex-row md:items-center md:gap-3.75">
       <div className="aspect-200/235 w-50 shrink-0 bg-canvas">
-        {/* placeholder for OneShot global hair awards image */}
-          <Image
+        <img
           src={oneShotPromo.logo}
-          alt={'oneshot-logo'}
-          ratio={'3/2'}
-          placeholderLabel={'mainPlaceholder'}
+          alt="#ONESHOT Global Hair Awards"
+          className="h-full w-full object-contain"
         />
       </div>
       <div className="flex flex-col gap-3.75 font-helvetica text-center text-[#f5e9ac]">
